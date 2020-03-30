@@ -1,0 +1,28 @@
+{
+  "name": "projeto-doacao-ong",
+  "version": "1.0.0",
+  "description": "Projeto Doação para Ongs - front-end back-end e mobile",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estevaoi/projeto-doacao-ong.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estevaoi/projeto-doacao-ong/issues"
+  },
+  "homepage": "https://github.com/estevaoi/projeto-doacao-ong#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
